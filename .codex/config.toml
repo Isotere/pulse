@@ -3,6 +3,3 @@ sandbox_mode = "workspace-write"
 
 [sandbox_workspace_write]
 network_access = true
-writable_roots = [
-  "/Users/vyutilikov/Library/Mobile Documents/iCloud~md~obsidian/Documents/CommonIcloud/Rust",
-]

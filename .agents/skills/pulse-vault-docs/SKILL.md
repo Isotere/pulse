@@ -9,11 +9,9 @@ description: >
 
 # Документация Pulse в vault
 
-Работай только в Rust-треке vault:
-
-```text
-/Users/vyutilikov/Library/Mobile Documents/iCloud~md~obsidian/Documents/CommonIcloud/Rust
-```
+Работай только в Rust-треке доступного vault. Определи его корень по workspace
+roots согласно корневому `AGENTS.md`. Не сохраняй абсолютный локальный путь в
+репозитории и не угадывай его, если vault недоступен.
 
 ## Порядок работы
 
