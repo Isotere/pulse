@@ -1,5 +1,6 @@
 site_name: Pulse
 site_description: Среда для воспроизводимого исследования рынка и проверки алгоритмических торговых стратегий
+site_url: https://isotere.github.io/pulse/
 repo_name: Isotere/pulse
 repo_url: https://github.com/Isotere/pulse
 edit_uri: edit/master/docs/

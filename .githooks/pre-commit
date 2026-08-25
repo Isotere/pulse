@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+for identity in GIT_AUTHOR_IDENT GIT_COMMITTER_IDENT; do
+  ident="$(git var "${identity}")"
+  email="${ident##* <}"
+  email="${email%%>*}"
+
+  if [[ ! "${email}" =~ @users\.noreply\.github\.com$ ]]; then
+    echo "Commit blocked: author and committer emails must use GitHub noreply." >&2
+    echo "Configure user.email locally, then retry the commit." >&2
+    exit 1
+  fi
+done

@@ -5,11 +5,9 @@ description: Создаёт или обновляет учебные консп�
 
 # Учебные конспекты Rust-трека
 
-Корень материалов:
-
-```text
-/Users/vyutilikov/Library/Mobile Documents/iCloud~md~obsidian/Documents/CommonIcloud/Rust/Материалы
-```
+Материалы находятся в каталоге `Материалы/` Rust-трека vault. Определи корень
+vault по доступным workspace roots согласно корневому `AGENTS.md`. Не сохраняй
+абсолютный локальный путь в репозитории и не угадывай его, если vault недоступен.
 
 ## Порядок работы
 

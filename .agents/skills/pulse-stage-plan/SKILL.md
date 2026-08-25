@@ -5,11 +5,9 @@ description: Детализирует ближайший этап Pulse, про�
 
 # Планирование этапа Pulse
 
-Документы находятся в:
-
-```text
-/Users/vyutilikov/Library/Mobile Documents/iCloud~md~obsidian/Documents/CommonIcloud/Rust/Pulse
-```
+Документы находятся в каталоге `Pulse/` Rust-трека vault. Определи корень
+vault по доступным workspace roots согласно корневому `AGENTS.md`. Не сохраняй
+абсолютный локальный путь в репозитории и не угадывай его, если vault недоступен.
 
 ## Входные материалы
 
